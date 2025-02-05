@@ -1,0 +1,17 @@
+#Asking the user for the value of a in ax^2+bx+c
+a = float(input("What is the value of a?"))
+
+#Asking the user for the value of bi in ax^2+bx+c
+b = float(input("what is the value of b?"))
+
+#Asking the user the value of c in ax^2+bx+c
+c = float(input("what is the value of c?"))
+
+#Calculating the first value for x
+x1 = (-1*b + (b**2 - 4*a*c)**(1/2)) / 2*a
+
+#Calculating the second value for x
+x2 = (-1*b -(b**2 - 4*a*c)**(1/2)) / 2*a
+
+#Saying to the user the first and second value of x that has been calculated
+print(f"the value of the first solution is {x1:.2f} while the value of the second solution is {x2:.2f}")
