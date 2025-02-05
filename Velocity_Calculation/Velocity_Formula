@@ -1,0 +1,11 @@
+#Asking user the amount of distance travelled.
+Distance = float(input("What is your distance travelled? (In Metres)"))
+
+#Asking user the amount of time taken when travelling.
+Time = float(input("What is your time taken? (In seconds)"))
+
+#Calculating the Velocity.
+Velocity = Distance / Time
+
+#The value of the velocity that has been calculated(Rounded into 2 decimal places)
+print(f"{Velocity:.2f} Metre per second")
